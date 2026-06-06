@@ -1,28 +1,42 @@
-Day 1
-- Repo
-- Architecture
-- Auth Setup
+# Development Roadmap
 
-Day 2
-- Goal Setup
+## Day 1
+
+- Project Setup
+- Documentation
+- React Setup
+- Backend Setup
+
+## Day 2
+
+- Google Authentication
+- MongoDB Integration
+
+## Day 3
+
+- Goal Setup Module
+- User Profile Module
+
+## Day 4
+
 - Resume Upload
+- Resume Parsing
 
-Day 3
+## Day 5
+
 - GitHub Analysis
 
-Day 4
+## Day 6
+
 - Assessment Module
 
-Day 5
-- Agent Orchestration
+## Day 7
 
-Day 6
-- Gap Analysis
+- Multi-Agent Workflow
 
-Day 7
+## Day 8
+
 - Roadmap Generation
-
-Day 8
 - Mentor Agent
 - Deployment
-- Demo
+- Demo Video

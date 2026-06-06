@@ -1,24 +1,24 @@
 # Ascend AI
 
-An AI-powered Career Intelligence Platform that helps students and aspiring professionals understand their readiness for specific career goals through multi-agent reasoning.
+An AI-powered Career Intelligence Platform that uses multi-agent reasoning to analyze resumes, GitHub profiles, technical assessments, and generate personalized career roadmaps.
 
 ## Problem
 
-Students often receive generic career advice that fails to consider their skills, projects, experience, assessment performance, available time, and target career goals.
+Students often receive generic career advice that ignores their actual skills, projects, experience, assessment performance, available study time, and career goals.
 
 ## Solution
 
-Ascend AI uses multiple specialized AI agents to analyze a user's profile and generate personalized career roadmaps.
+Ascend AI uses multiple specialized AI agents to evaluate a user's profile and generate actionable career insights.
 
-## Key Features
+## Core Features
 
-- Google OAuth Authentication
+- Google Authentication
 - Resume Analysis
 - ATS Evaluation
 - GitHub Profile Analysis
-- Adaptive Technical Assessments
-- Gap Analysis
+- Adaptive Technical Assessment
 - Readiness Scoring
+- Gap Analysis
 - Personalized Roadmaps
 - AI Career Mentor
 
@@ -33,34 +33,35 @@ Ascend AI uses multiple specialized AI agents to analyze a user's profile and ge
 
 ## Tech Stack
 
-Frontend:
+### Frontend
 - React
 - Tailwind CSS
 - Framer Motion
 
-Backend:
+### Backend
 - Node.js
 - Express.js
 
-Database:
+### Database
 - MongoDB Atlas
 
-Authentication:
+### Authentication
 - Google OAuth
 - JWT
 
-AI:
+### AI
 - Microsoft Foundry
 - Foundry IQ
 - Gemini (Fallback)
 
-Deployment:
+### Deployment
 - Vercel
 - Render
 
 ## User Workflow
 
-Goal Selection
+Google Login
+→ Goal Setup
 → Resume Upload
 → GitHub Analysis
 → Technical Assessment
@@ -70,4 +71,4 @@ Goal Selection
 
 ## Current Status
 
-Planning Phase
+Planning & Development Phase

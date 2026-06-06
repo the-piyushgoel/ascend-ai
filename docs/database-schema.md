@@ -1,46 +1,117 @@
 # Database Schema
 
-## Users
+## Users Collection
 
-- name
-- email
-- profilePicture
+```json
+{
+  "_id": "ObjectId",
+  "name": "String",
+  "email": "String",
+  "avatar": "String",
+  "googleId": "String",
+  "createdAt": "Date"
+}
+```
 
-## Career Goals
+---
 
-- targetRole
-- college
-- cgpa
-- graduationYear
-- timeline
-- availableHours
+## Career Profiles Collection
 
-## Resume Analysis
+```json
+{
+  "_id": "ObjectId",
+  "userId": "ObjectId",
+  "targetRole": "String",
+  "college": "String",
+  "year": "String",
+  "cgpa": "Number",
+  "dailyHours": "Number",
+  "timeline": "String",
+  "preferredLocation": "String"
+}
+```
 
-- skills
-- projects
-- experience
-- achievements
-- atsScore
+---
 
-## GitHub Analysis
+## Resume Analyses Collection
 
-- repos
-- stars
-- languages
-- commits
+```json
+{
+  "_id": "ObjectId",
+  "userId": "ObjectId",
+  "atsScore": "Number",
+  "skills": [],
+  "projects": [],
+  "experience": [],
+  "achievements": [],
+  "missingKeywords": [],
+  "resumeSuggestions": []
+}
+```
 
-## Assessment
+---
 
-- dsa
-- oop
-- os
-- dbms
-- cn
+## GitHub Analyses Collection
 
-## Career Report
+```json
+{
+  "_id": "ObjectId",
+  "userId": "ObjectId",
+  "username": "String",
+  "repos": "Number",
+  "commits": "Number",
+  "languages": [],
+  "stars": "Number",
+  "followers": "Number",
+  "activityScore": "Number"
+}
+```
 
-- readinessScore
-- strengths
-- weaknesses
-- roadmap
+---
+
+## Assessments Collection
+
+```json
+{
+  "_id": "ObjectId",
+  "userId": "ObjectId",
+  "dsaScore": "Number",
+  "oopScore": "Number",
+  "osScore": "Number",
+  "dbmsScore": "Number",
+  "cnScore": "Number",
+  "overallScore": "Number",
+  "strengths": [],
+  "weaknesses": []
+}
+```
+
+---
+
+## Roadmaps Collection
+
+```json
+{
+  "_id": "ObjectId",
+  "userId": "ObjectId",
+  "readinessScore": "Number",
+  "mustDo": [],
+  "recommended": [],
+  "milestones": [],
+  "estimatedTimeline": "String"
+}
+```
+
+---
+
+## Mentor Chats Collection
+
+```json
+{
+  "_id": "ObjectId",
+  "userId": "ObjectId",
+  "message": "String",
+  "response": "String",
+  "createdAt": "Date"
+}
+```

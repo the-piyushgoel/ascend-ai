@@ -1,5 +1,7 @@
 POST /auth/google
 
+POST /career-profile
+
 POST /resume/upload
 
 POST /github/analyze
